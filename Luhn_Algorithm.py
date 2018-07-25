@@ -1,3 +1,4 @@
+# Implements the Luhn Algorithm to validate Credit Card Numbers.
 def checkLuhn(cardNumber):
     cardNumbers = [int(digit) for digit in str(cardNumber)]
     isOdd = True
